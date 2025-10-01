@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Digital Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home / About Section -->
+  <section id="home">
+    <div class="hero-content">
+      <div class="profile-pic">
+        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/7282034f-8107-4563-826e-0e97f1474909.png" alt="Profile Picture">
+      </div>
+      <div class="intro">
+        <h1>Aishwarya Vacha</h1>
+        <h3>Front-end Web Developer | Problem Solver</h3>
+        <br><br></br></br>
+        <a href="#projects" class="btn-slide">Explore My Work</a><a href="C:\Users\pavan\Downloads\aishuresume1.pdf" class="btn-slide">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+<section id="about">
+  <div class="about-container">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate <strong>Front-End Web Developer</strong> skilled in HTML, CSS, and JavaScript.  
+      I enjoy crafting modern, responsive, and interactive websites with beautiful UI/UX designs.
+    </p>
+    <p>
+      Currently pursuing a <strong>B.Tech in Computer Science and Engineering (Artificial Intelligence)</strong> from KKR & KSR Institute of Technology and Sciences (2023-2027).  
+      I aim to deliver innovative solutions that make a real difference in the digital world.
+    </p>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>Python</h3>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>C Programming</h3>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Web Development</h3>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 80%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>E-commerce Website</h3>
+        <p>Built an E-commerce website using Web scraping integrated with Streamlit.</p>
+        <a href="#" class="btn-slide">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Travel Planner Agent</h3>
+        <p>AI Agent using IBM Watsonx Assistant to plan personalized trips.</p>
+        <a href="https://github.com/Aishu1525/IBM-Cloud-Project" class="btn-slide">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Quiz Web App</h3>
+        <p>Responsive quiz app with multiple game modes and interactive UI.</p>
+        <a href="https://aishu1525.github.io/Quiz_app/" class="btn-slide">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form class="contact-form">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Name" required>
+    </div><br>
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Email" required>
+    </div><br>
+    <div class="form-group">
+      <textarea name="feedback" rows="5" placeholder="Feedback" required></textarea>
+    </div><br>
+    <button type="submit" class="btn-submit">Send Message</button>
+  </form>
+
+  <!-- Social Media Links -->
+<div class="socials">
+  <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+</div>
+
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
