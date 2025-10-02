@@ -12,6 +12,7 @@ window.addEventListener('scroll', () => {
     });
   }
 });
+// EmailJS Init
 (function () {
     emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS Public Key
 })();
